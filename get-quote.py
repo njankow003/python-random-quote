@@ -9,7 +9,9 @@ def primary():
   last=16
   rnd1=random.randint(0,last)
   rnd2=random.randint(0,last)
-  print(quotes[rnd1]+'\n'+quotes[rnd2])
+  quote1=quotes[rnd1]
+  quote2=quotes[rnd2]
+  print(quote1.strip()+'\n'+quote2.strip())
 
 if __name__== "__main__":
   primary()
