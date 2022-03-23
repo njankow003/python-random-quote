@@ -6,7 +6,7 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  last=16
+  last=15
   rnd1=random.randint(0,last)
   rnd2=random.randint(0,last)
   quote1=quotes[rnd1]
