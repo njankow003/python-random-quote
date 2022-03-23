@@ -2,8 +2,9 @@ import random
 def primary():
   #print("Keep it logically awesome.")
 
-  f = open("quotes.txt",'a+')
-  f.write('No pain no gain')
+  f = open("quotes.txt")
+  #f = open("quotes.txt",'a+')
+  #f.write('No pain no gain')
   quotes = f.readlines()
   f.close()
 
