@@ -14,4 +14,3 @@ Design for failure
 Keep it logically awesome
 There are no solutions only tradeoffs
 Keep moving forward
-something
