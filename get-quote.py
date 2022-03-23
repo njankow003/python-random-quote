@@ -2,7 +2,8 @@ import random
 def primary():
   #print("Keep it logically awesome.")
 
-  f = open("quotes.txt")
+  f = open("quotes.txt",'a+')
+  f.write('No pain no gain')
   quotes = f.readlines()
   f.close()
 
@@ -12,6 +13,7 @@ def primary():
   quote1=quotes[rnd1]
   quote2=quotes[rnd2]
   print(quote1.strip()+'\n'+quote2.strip())
+  print(quotes[-1])
 
 if __name__== "__main__":
   primary()
